@@ -18,21 +18,22 @@ setTimeout(function () {
     console.log(productData[i]);
     let product = productData[i];
 
-    container.innerHTML += `<div class="col-sm-4">
+    container.innerHTML += `<div class="col-sm-4 custom">
 
-<div  class="card h-100 shadow-sm">
+<div  class="card  ">
 <img class= "img" src = "${
       product.image
     }" width = "100px" 
 height = "100px"  />
-<div class"size">
- <div class="card-body d-flex flex-column  ">
-<p card-text text-success mb-2 >${product.price}$</p>
-<p class="card-title fs-6">${product.title}</p>
-<button class="btn btn-outline-primary mt-auto">Buy Now</button>
 
+
+ <div class="card-body d-flex flex-column  ">
+<p card-text text-success  fs-6 >${product.price}$</p>
+
+<button class="btn btn-outline-dark mt-auto">Buy Now</button>
+ 
  </div>
-</div>
+
 </div>
 
 

@@ -1,19 +1,20 @@
  body{
 
-background-color: beige !important;
+background-color: rgba(207, 207, 207, 0.808) !important;
 
  }
  .font{
 
 text-align: center;
 font-family: cursive;
-color: rgb(78, 67, 51);
+color: rgba(43, 37, 28, 0.541);
 
  }
  .card {
       border: none !important;
       border-radius: 12px;
       overflow: hidden;
+ 
      
     font-size: 0.85rem !important;
 
@@ -24,6 +25,8 @@ color: rgb(78, 67, 51);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      
+     
       
       
       
@@ -55,4 +58,11 @@ color: rgb(78, 67, 51);
     padding: 0.5rem;
   }
 
-  
+ 
+
+ .custom{
+
+height: 80vh !important;
+font-size: xx-small !important;
+
+ }
